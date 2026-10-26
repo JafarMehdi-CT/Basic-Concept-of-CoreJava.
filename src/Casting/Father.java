@@ -1,6 +1,6 @@
 package Casting;
 
-public class Father
+ public class Father
 {
     public void car()
     {
