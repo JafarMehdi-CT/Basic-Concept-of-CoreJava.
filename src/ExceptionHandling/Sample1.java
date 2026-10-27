@@ -10,9 +10,18 @@ public class Sample1
         {
             div=num1/num2;
 
-        } catch (ArithmeticException e)
+        }
+        catch (ArithmeticException e)
         {
             System.out.println("Arithmatic exception handled");
+        }
+        catch (ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println("ArrayIndexOutOfBoundsException  handled");
+        }
+        catch (StringIndexOutOfBoundsException e)
+        {
+            System.out.println("StringIndexOutOfBoundsException handled");
         }
         System.out.println("hii");
     }

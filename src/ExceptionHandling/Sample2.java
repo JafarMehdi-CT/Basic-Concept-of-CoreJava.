@@ -15,6 +15,15 @@ public class Sample2
         {
             System.out.println("ArrayIndexOutOfBoundsException handled");
         }
+        catch (ArithmeticException e)
+        {
+            System.out.println("Arithmatic exception handled");
+        }
+
+        catch (StringIndexOutOfBoundsException e)
+        {
+            System.out.println("StringIndexOutOfBoundsException handled");
+        }
         System.out.println(ar.length);
 
     }

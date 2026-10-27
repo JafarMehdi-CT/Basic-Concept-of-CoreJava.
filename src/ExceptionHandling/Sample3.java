@@ -16,6 +16,15 @@ public class Sample3
         {
             System.out.println("StringIndexOutOfBoundsException handled");
         }
+        catch (ArithmeticException e)
+        {
+            System.out.println("Arithmatic exception handled");
+        }
+        catch (ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println("ArrayIndexOutOfBoundsException  handled");
+        }
+
         System.out.println(s1.startsWith("F"));
 
 
