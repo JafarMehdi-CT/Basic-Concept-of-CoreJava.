@@ -12,7 +12,7 @@ public class Sample1
         System.out.println("non Static method with return type");
         Sample1 s1= new Sample1();
       int mulvalue =s1.mul(5,6);
-        System.out.println(mulvalue);
+      System.out.println(mulvalue);
 
         System.out.println(s1.mul(7,8));
 

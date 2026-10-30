@@ -7,6 +7,7 @@ public class Sample3
         Sample3 s= new Sample3();
         String []  ar1 =s.Studentname();
         System.out.println(ar1[1]);
+
     }
     public String [] Studentname()
     {
